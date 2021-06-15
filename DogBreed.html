@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./DogBreed.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title> Petdop </title>
+    <link rel="shortcut icon" href="dogg.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+</head>
+<body>
+  <div class="header">
+    <div class="header-right">
+      <img src="dogg.jpg" alt="Petdop" style="width: 30%; height: 50px;">
+    </div>
+    <div class="name"> <p class="logoname">Petdop</p></div>  
+    <div class="header-left">
+       <a href=""> Home </a>
+       <a href=""> About</a>
+       <a href=""> Blogs</a>
+    </div>
+  </div>
+
+    <div id="categories"></div>
+    
+  
+     </div>
+
+<script>
+    var text = [{ name: "Lucky", img: "55.jpg", Price : "₦65,000"},
+                { name: "Mr White", img: "2.jpg", Price : "₦100,000"},
+                { name: "Slimy", img: "22.jpg ", Price : "₦90,000"},
+                { name: "Dee Dee", img: "4.jpg", Price : "₦30,000 "},
+                { name: "Doman", img: "5.jpg", Price : "₦150,000"},
+                { name: "Great", img: "19.jpg", Price : "₦35,000 "},
+                { name: "Rotfull", img: "77.jpg", Price : "₦50,000 "},
+                { name: "Buller", img:  "123.jpg", Price : "₦70,000 "},
+                { name: "Accura", img: "9.jpg", Price : "₦ 50,000"},
+                { name: "Smith", img: "100.jpg", Price : "₦120,000"},
+                { name: "Black", img: "111.jpg", Price : "₦45,000"},
+                { name: "Dodge", img:  "Bitch.jpeg", Price : "₦30,000"},
+                { name: "Mozzy", img: "99.jpg", Price : "₦80,000 "},
+                { name: "Tane", img: "44.jpg", Price : "₦50,000 "},
+                { name: "Lolly", img: "33.jpg", Price : "₦100,000 "}
+            ];
+    
+  var str = ""
+    text.map((e, i) => {
+    str +="<div id='mainCard' onclick='display()'>" +
+          "<img src=" + e.img + " alt='Avatar'  />" +
+          "<p class='dogname'><b>" + e.name + "</b></p>" +
+          "<p class='price'><b>" + e.Price + "</b></p>" +
+          "</div>";
+  });
+  document.getElementById("categories").innerHTML = str;
+
+ /* function display(){
+    //alert("hello world");
+    var xdiv = document.getElementById("mainCard");
+      xdiv.style.transform = "scale(4.5, 3.5)";
+      xdiv.style.zIndex = "4";
+      xdiv.style.marginLeft = "500px";
+      xdiv.style.marginTop = "300px";
+      xdiv.style.boxShadow = "-1px 2px 5px 2px rgba(0,0,0,0.2)";
+
+    
+
+    var zdiv = document.getElementById("goBack");
+    zdiv.style.display = "block";
+    zdiv.style.marginLeft = "170px";
+
+    var kdiv = document.getElementById("categories");
+    
+
+ if (xDiv.style.height == '' && xDiv.style.width == '') {
+    xDiv.style.height = '500px'
+    xDiv.style.width = '700px'
+    
+
+  }else 
+    xDiv.style.height = ''
+    xDiv.style.width = ''
+  }
+ }
+
+ function back() {
+    window.location.reload();
+ }*/
+    
+  </script>
+
+
+</body>
+</html>

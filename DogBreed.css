@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  background: white;
+  margin-top: 1%;
+  width: 90%;
+  margin-left: 5%;
+  justify-content: space-between;
+  
+  border-bottom-style: groove;
+  border-bottom-color: rgb(253, 211, 95);
+  border-top-style: groove;
+  border-top-color: rgb(253, 211, 95);
+  border-left-style: groove;
+  border-left-color: rgb(253, 211, 95);
+  border-right-style: groove;
+  border-right-color: rgb(253, 211, 95);
+}
+
+.header-right{
+  margin-left: 3%;
+  margin-top: 9px;
+}
+
+.header-right a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.name{
+  position: absolute;
+  margin-left: 105px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;  
+  font-size: 25px;
+  margin-top: 9px;
+  color: rgb(253, 211, 95);
+  
+}
+
+ 
+.header-left a{
+  text-decoration: none;
+  color: black;
+  font-weight: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+   padding: 3px; 
+   margin-right: 40px;
+   
+}
+
+.header-left a:hover{
+  font-size: 19px;
+}
+
+
+body{
+  background: black
+  /*background:rgb(255,251,249);*/
+}
+
+#BullDog{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#categories{
+  float: left;
+  width: 85%;
+  min-height: 400px;
+  background-color: transparent;
+  margin-left: 7.5%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+  margin-bottom:2%;
+}
+
+
+/*img{
+  position:absolute;
+  top:-50px;
+  left:50px
+}*/
+
+h2, p{
+  font-family: century gothic;
+}
+
+.dogname{
+  position: absolute;
+  top:150px;
+  font-size: 15px;
+  left:90px;
+  color:black;
+}
+
+.price{
+  position: absolute;
+  top:170px;
+  font-size: 18px;
+  left:80px;
+  font-size:15px;
+  color:black;
+}
+
+img{
+  height: 150px;
+  width: 240px; 
+  border-radius: 10px;
+}
+#mainCard{
+text-align: center;
+height: 190px;
+width: 240px;
+background-color: white;
+box-shadow:10px 5px 15px 5px rgba(0,0,0,0.2);
+border-radius: 10px;
+margin-top: 5%;
+position: relative;
+}
+
+#mainCard:hover{
+  transform: scale(1.15);
+  transition-timing-function: ease-in-out;
+  transition:2s;
+
+}
+
+/*#mainCard:hover{
+  transform:scale;
+  transition-timing-function: ease-in-out;
+  transition:2s;
+  z-index:2;
+}
+
+  button{
+  position: absolute;
+  border:none;
+  outline: none;
+  background:white;
+  z-index:2;
+  margin-left:15px;
+  font-size: 18px;
+  color:lightgray;
+  display: none; 
+} */
+
+
+    
+
+  
